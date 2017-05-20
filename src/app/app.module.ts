@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { appRoutingProviders, routing } from './app.routing';
 import { NavbarModule } from './shared';
 import { HomeModule } from './home/home.module';
+import { LoginModule } from './login/login.module';
 import { TodolistModule } from './todolist/todolist.module';
 
 @NgModule({
@@ -16,6 +17,7 @@ import { TodolistModule } from './todolist/todolist.module';
         BrowserModule,
         NavbarModule,
         HomeModule,
+        LoginModule,
         TodolistModule,
         routing
     ],

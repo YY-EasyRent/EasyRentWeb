@@ -1,0 +1,8 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var login_component_1 = require("./login.component");
+exports.LoginRoutes = [
+    { path: 'login', component: login_component_1.LoginComponent }
+];
+
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC9sb2dpbi9sb2dpbi5yb3V0ZXMudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFFQSxxREFBbUQ7QUFFdEMsUUFBQSxXQUFXLEdBQVc7SUFDakMsRUFBRSxJQUFJLEVBQUUsT0FBTyxFQUFHLFNBQVMsRUFBRSxnQ0FBYyxFQUFFO0NBQzlDLENBQUMiLCJmaWxlIjoiYXBwL2xvZ2luL2xvZ2luLnJvdXRlcy5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IFJvdXRlcyB9IGZyb20gJ0Bhbmd1bGFyL3JvdXRlcic7XG5cbmltcG9ydCB7IExvZ2luQ29tcG9uZW50IH0gZnJvbSAnLi9sb2dpbi5jb21wb25lbnQnO1xuXG5leHBvcnQgY29uc3QgTG9naW5Sb3V0ZXM6IFJvdXRlcyA9IFtcbiAgeyBwYXRoOiAnbG9naW4nLCAgY29tcG9uZW50OiBMb2dpbkNvbXBvbmVudCB9XG5dO1xuIl19
