@@ -1,3 +1,9 @@
 h4 {
 	color: lightseagreen;
 }
+.tenPxSpacer { margin:0; padding:0; height:10px; }
+.twentyPxSpacer { margin:0; padding:0; height:20px; }
+.thirtyPxSpacer { margin:0; padding:0; height:30px; }
+.fourtyPxSpacer { margin:0; padding:0; height:40px; }
+.hundredPxSpacer { margin:0; padding:0; height:100px; }
+
