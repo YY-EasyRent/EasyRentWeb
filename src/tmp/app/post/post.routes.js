@@ -1,0 +1,8 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var post_component_1 = require("./post.component");
+exports.PostRoutes = [
+    { path: 'post', component: post_component_1.PostComponent }
+];
+
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcC9wb3N0L3Bvc3Qucm91dGVzLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBRUEsbURBQWlEO0FBRXBDLFFBQUEsVUFBVSxHQUFXO0lBQ2hDLEVBQUUsSUFBSSxFQUFFLEVBQUUsRUFBRyxTQUFTLEVBQUUsOEJBQWEsRUFBRTtDQUN4QyxDQUFDIiwiZmlsZSI6ImFwcC9wb3N0L3Bvc3Qucm91dGVzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgUm91dGVzIH0gZnJvbSAnQGFuZ3VsYXIvcm91dGVyJztcblxuaW1wb3J0IHsgUG9zdENvbXBvbmVudCB9IGZyb20gJy4vcG9zdC5jb21wb25lbnQnO1xuXG5leHBvcnQgY29uc3QgUG9zdFJvdXRlczogUm91dGVzID0gW1xuICB7IHBhdGg6ICcnLCAgY29tcG9uZW50OiBQb3N0Q29tcG9uZW50IH1cbl07XG4iXX0=

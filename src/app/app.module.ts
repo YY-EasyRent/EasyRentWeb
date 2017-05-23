@@ -8,6 +8,7 @@ import { NavbarModule } from './shared';
 import { HomeModule } from './home/home.module';
 import { LoginModule } from './login/login.module';
 import { TodolistModule } from './todolist/todolist.module';
+import { PostModule } from './post/post.module';
 
 @NgModule({
     declarations: [
@@ -19,6 +20,7 @@ import { TodolistModule } from './todolist/todolist.module';
         HomeModule,
         LoginModule,
         TodolistModule,
+        PostModule,
         routing
     ],
     providers: [ APP_PROVIDERS, appRoutingProviders ],
