@@ -1,9 +1,19 @@
 <div class="panel panel-default">
     <div class="panel-heading">
-    <h3 class="panel-title"><i class="fa fa-login"></i> Login</h3>
+        <h3 class="panel-title"><i class="fa fa-login"></i> Login</h3>
     </div>
     <div class="panel-body">
-        <h4>Please Login with your Firebase ID</h4>
-        <img width="140" height="100" src="assets/images/ng2.jpg" alt="Ng2">
+        <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+        </form>
+        <button type="submit" class="btn btn-primary" onclick="alert('Try to login!')">Login!</button>
     </div>
 </div>
